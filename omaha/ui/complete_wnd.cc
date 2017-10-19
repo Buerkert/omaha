@@ -76,7 +76,7 @@ LRESULT CompleteWnd::OnInitDialog(UINT message,
 
   SetControlAttributes(IDC_COMPLETE_TEXT, kDisabledNonButtonAttributes);
   SetControlAttributes(IDC_ERROR_TEXT, kDisabledNonButtonAttributes);
-  SetControlAttributes(IDC_GET_HELP, kDisabledButtonAttributes);
+  //SetControlAttributes(IDC_GET_HELP, kDisabledButtonAttributes);
   SetControlAttributes(IDC_CLOSE, kDefaultActiveButtonAttributes);
 
   return 1;  // Let the system set the focus.
