@@ -1,0 +1,1 @@
+call hammer MODE=opt-win -j4
