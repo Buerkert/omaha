@@ -58,31 +58,30 @@ const TCHAR* const kGoopdateServer = _T("tools.") COMPANY_DOMAIN;
 // The channel for update checks is secured by using CUP to sign the messages.
 // It does not depend solely on https security in any case.
 const TCHAR* const kUrlUpdateCheck =
-    _T("https://tools.") COMPANY_DOMAIN _T("/service/update2");
+    _T("http://192.168.178.5:9090/service/update2");
 
 // Pings.
 const TCHAR* const kUrlPing =
-    _T("https://tools.") COMPANY_DOMAIN _T("/service/update2");
+    _T("http://192.168.178.5:9090/service/update2");
 
 // The urls below never fall back to http.
 //
 // Crash reports.
 const TCHAR* const kUrlCrashReport =
-    _T("https://clients2.") COMPANY_DOMAIN _T("/cr/report");
+    _T("http://192.168.178.5:9090/cr/report");
 
 // More information url.
 // Must allow query parameters to be appended to it.
 const TCHAR* const kUrlMoreInfo =
-    _T("https://www.") COMPANY_DOMAIN _T("/support/installer/?");
+    _T("http://192.168.178.5:9090/support/installer/?");
 
 // Code Red check url.
 const TCHAR* const kUrlCodeRedCheck =
-    _T("https://clients2.") COMPANY_DOMAIN _T("/service/check2");
+    _T("http://192.168.178.5:9090/service/check2");
 
 // Usage stats url.
 const TCHAR* const kUrlUsageStatsReport =
-    _T("https://clients5.") COMPANY_DOMAIN _T("/tbproxy/usagestats");
-
+    _T("http://192.168.178.5:9090/tbproxy/usagestats");
 }  // namespace omaha
 
 #endif  // OMAHA_BASE_CONST_ADDRESSES_H_
