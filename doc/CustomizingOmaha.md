@@ -62,4 +62,4 @@ We strongly recommend making these changes before you release:
 
 The version number stored in all outputs is set in the file **`omaha\VERSION`**.  Omaha has some functionality in it from Google Update related to bug workarounds when upgrading from prior versions, so don't set the VERSION to any lower than 1.3.23.0.
 
-When releasing your fork of Omaha, we recommend starting the version at 1.3.25.0.  Remember to bump the version up whenever releasing an updated version.
+When releasing your fork of Omaha, we recommend starting the version at 1.3.99.0.  Remember to bump the version up whenever releasing an updated version.
