@@ -9,3 +9,4 @@ We know that keeping software updated is both important and hard, and so by open
 There is also an unofficial [tutorial](https://fman.io/blog/google-omaha-tutorial/). Please note that it was written by a third party so we cannot guarantee its availability, accuracy or safety.
 
 If you want to get into Omaha or need some help, you can drop me a message. I've also setup a VM to build the Omaha Client.
+At the moment, the Google Omaha Client does not care about the internet connection. There will be future improvements so the client does not download executables when Windows is connected via a mobile connection
