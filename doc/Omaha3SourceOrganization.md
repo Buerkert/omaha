@@ -29,7 +29,7 @@ omaha\
                                 that Omaha ships in.
         google_update\          Produces the constant shell, GoogleUpdate.exe.
         mi_exe_stub\            Produces a stub EXE, mi_exe_stub.exe, that will be combined
-                                with a TAR to produce the untagged meta-installer.  (The script to
+                                with a TAR to produce the untagged meta-installer. (The script to
                                 actually do the merge lives in installers\, mentioned below.)
 plugins\                        Produces the browser plugin, npGoogleUpdate3.dll.
 	recovery\               Produces tools for “Code Red” - a mechanism that the apps being
@@ -43,7 +43,7 @@ omaha\
                                 by system administrators to manage Omaha via Group Policy.
         installers\             Produces GoogleUpdateSetup.exe, the meta-installer, using a
                                 set of Python scripts to generate the Omaha tarball and merging
-                                it with mi_exe_stub.exe.  (This build step also produces some
+                                it with mi_exe_stub.exe. (This build step also produces some
                                 of the Code Red files.)
         clickonce\              Produces clickonce_bootstrap.exe -- a managed stub, written in
                                 C#, used to enable ClickOnce installs via the .NET Framework.
